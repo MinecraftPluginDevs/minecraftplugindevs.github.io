@@ -1,5 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 body{
     text-align: center;
     font-family: "Roboto",sans-serif;
+}
+.footer{
+    left: 0;
+    width: 100%;
+}
+.content {
+    min-height: calc(100vh - 70px);
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.navlink{
+    text-decoration: none;
+    color: #266336;
+}
+.navlink:hover{
+    color: #32a895;
 }

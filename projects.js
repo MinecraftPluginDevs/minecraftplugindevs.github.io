@@ -7,8 +7,9 @@ fetch(urltwo)
 .then(function(data){
     var count = 0;
     return data.map(function(){
-        let name = document.createElement("p");
+        let name = document.createElement("a");
         name.innerHTML = data[count]["login"];
+        name.href = data[count]["html_url"];
         document.getElementById("Members").appendChild(name);
     })
 }).catch(function(error){
