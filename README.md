@@ -1,2 +1,2 @@
 # our website
-uhh view it here: [https://www.minecraftplugindevs.github.io](https://www.minecraftplugindevs.github.io)
+uhh view it here: [https://minecraftplugindevs.github.io/](https://minecraftplugindevs.github.io/)
