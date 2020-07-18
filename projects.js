@@ -9,7 +9,19 @@ function append(parent, el) {
 
 
 var url = "https://api.github.com/users/MinecraftPluginDevs/repos";
+var urltwo = "https://api.github.com/orgs/minecraftplugindevs/members";
 const ul = document.getElementById('projects');
+// get memebers
+fetch(urltwo)
+.then((resp) => resp.json()) 
+.then(function(data){
+    var count = 0;
+    return data.map(function(){
+        let name = document.createElement("p");
+        name.innerHTML = data[count]["login"];
+        document.getElementById("Members").appendChild(name);
+    })
+})
 
 fetch(url)
 .then((resp) => resp.json()) 
@@ -27,3 +39,4 @@ fetch(url)
 }).catch(function(error){
     alert(error);
 })
+
