@@ -11,7 +11,9 @@ fetch(urltwo)
         name.innerHTML = data[count]["login"];
         document.getElementById("Members").appendChild(name);
     })
-})
+}).catch(function(error){
+    alert(error);
+});
 
 fetch(url)
 .then((resp) => resp.json()) 
