@@ -1,13 +1,3 @@
-function createNode(element) {
-    return document.createElement(element); // Create the type of element you pass in the parameters
-}
-
-function append(parent, el) {
-    return parent.appendChild(el); // Append the second parameter(element) to the first one
-}
-
-
-
 var url = "https://api.github.com/users/MinecraftPluginDevs/repos";
 var urltwo = "https://api.github.com/orgs/minecraftplugindevs/members";
 const ul = document.getElementById('projects');
