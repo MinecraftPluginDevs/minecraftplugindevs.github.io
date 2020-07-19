@@ -1,3 +1,7 @@
+/*
+    (c)2020 JackTheWebDev All Rights Reserved. 
+*/
+
 var url = "https://api.github.com/users/MinecraftPluginDevs/repos";
 var urltwo = "https://api.github.com/orgs/minecraftplugindevs/members";
 const ul = document.getElementById('projects');
