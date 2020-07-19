@@ -25,7 +25,7 @@ fetch(url)
 .then(function(data){
     var count = 0;
     return data.map(function(){
-        let titleArea = document.createElement("h2");
+        let titleArea = document.createElement("h3");
         let desc = document.createElement("p");
         let url = document.createElement("a");
         url.href = data[count]["html_url"];
