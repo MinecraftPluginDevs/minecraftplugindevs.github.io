@@ -17,6 +17,8 @@ body{
     text-decoration: none;
 }
 .navlink{
+    padding: 15px 32px;
+    background-color: blue;
     text-decoration: none;
     color: #266336;
 }
