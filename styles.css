@@ -11,6 +11,9 @@ body{
     min-height: calc(100vh - 70px);
 }
 
+a{
+    color: #7e846b;
+}
 .navbar{
     width: 100%;
     text-align: center;
@@ -18,8 +21,8 @@ body{
 }
 .navlink{
     text-decoration: none;
-    color: #266336;
+    color: ##d0ddd7;
 }
 .navlink:hover{
-    color: #32a895;
+    color: #a5ae9e;
 }
