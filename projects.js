@@ -15,6 +15,7 @@ fetch(urltwo)
         let name = document.createElement("a");
         name.innerHTML = data[count]["login"];
         name.href = data[count]["html_url"];
+        document.getElementById("loadingtwo").style.display = "none";
         document.getElementById("Members").appendChild(name);
     })
 }).catch(function(error){
